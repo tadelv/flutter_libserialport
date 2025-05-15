@@ -40,6 +40,7 @@ android {
         main.java.srcDirs += 'src/main/kotlin'
     }
     defaultConfig {
+        namespace 'org.sigrok.flutter_libserialport'
         minSdkVersion 21
     }
     lintOptions {
